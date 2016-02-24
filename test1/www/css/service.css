@@ -1,0 +1,45 @@
+﻿body {
+}
+.boks {
+    
+    display:block;
+    text-align:center;
+    margin:0;
+    padding:0;
+    
+}
+
+.mbox {
+}
+
+.sserv {
+    margin:0px;
+    display:inline;
+    padding:0px;
+    border:0;
+}
+    .sserv img {
+        width:49%;
+        height:49%;
+        padding:0;
+        margin:0;
+        border:0;
+}
+     .pressed { 
+            height:100%;
+           font-size:4vw; 
+           font-weight:bold;
+          padding: 10px; /*отступы в блоке до текста*/ 
+          background: #f1f1f1; /*фон блока*/ 
+          border: 1px solid #000; /*граница блока*/ 
+          border-right: 1px solid #353535; /*граница блока*/ 
+          border-bottom: 1px solid #353535; /*граница блока*/ 
+          -webkit-border-radius: 5px; /*закругление углов на число пикселей для Webkit */ 
+          -moz-border-radius: 5px; /*закругление углов на число пикселей для Mozilla */ 
+          border-radius: 5px; /*закругление углов на число пикселей*/ 
+          margin-left:1px;
+          margin-right:1px;
+          margin-top:0;  
+          margin-bottom:2px
+        
+}

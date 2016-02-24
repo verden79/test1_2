@@ -1,0 +1,21 @@
+﻿body {
+}
+.len1 {
+    margin-top:9vw;
+    padding-top:1vw;
+    font-size:5vw;
+}
+
+.blocktxt {
+    background-color:#e8e8e8;
+    margin-right:10px;
+    font-size: 85%;
+    padding:10px;
+    margin-bottom:4px;
+   
+}
+span {
+ color:forestgreen;
+ float:right;
+ margin-right:10px;
+}

@@ -1,0 +1,223 @@
+﻿body {
+    background-color :white;
+    padding:0;
+    margin:0;
+}
+
+/* новый вариант подменю
+
+*/
+#Mm {
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:3;
+    background-color:darkgreen;
+    font-weight:bold;
+    font-size:8vw;
+    color:white;
+    line-height:9vw;
+    text-align:center;
+    
+}
+.m1 {
+ float:left;
+ font-size:150%;
+ font-weight:normal;
+ padding-left:10px;
+ padding-right:10px; 
+}
+
+.m2 {
+    margin-right:30px;
+    text-align:center;
+    align-content:center;
+    }
+
+
+#podmenu {
+    z-index:1;
+    position:fixed;
+    width:100%;
+   text-align:center;
+   background-color: #129f1d;
+   font-size: 17px;
+   line-height: 35px;
+   color:white;
+  
+}
+    #nnn {
+       position:relative;
+       font-size:5vw;
+         line-height:6vw;
+       }
+
+#podmenu button {
+    position:absolute;
+    top:10px;
+    left:10px;
+    font-size:3vw;
+    height:auto;
+    width:auto;
+    background-color:#129f1d;
+    text-align:left;
+    margin-left:20px;
+    color:white;
+}
+
+/*  .butt:active .dropdown {    display:block;     } */
+
+/*   выпадающее меню   */
+.dropdown {   
+    padding-top:5vw;                      /* сам выпадающий блок подменю */
+    z-index:1;
+    background:  white;  /*  #edeaea; */
+    text-align:left;
+    position:absolute;
+    margin-top:9vw;
+    width:65%;
+    height:120vw;
+    font-size:6vw;
+    line-height:10vw;
+    display:none; 
+    
+}
+    .dropdown li {
+       margin-left: -40px;
+    }
+ 
+    .dropdown li:hover {            /*цвет полоски верхенего подменю*/
+        background:#ffd800;
+    }
+
+    .dropdown a {                   /* оформление  текста пунктов верхнего  */
+        text-decoration:none;
+        color:black;
+        margin-left:20px; 
+    }
+
+/* окошко акции*/
+#cap {
+    z-index:0;
+    text-align:center;
+    font-size: 5vw;
+    line-height:6vw;
+    background-color:#edf6e6;
+}
+
+ div .s {
+     position:relative;
+     margin:0px;
+     display:inline; 
+     padding:0px;
+     border:0;
+}
+    .s img {   
+        z-index:1;   
+        width:100%;
+        height:100%;
+        padding:0;
+        margin:0;
+        border:0;
+    }
+   div .s2 { 
+        text-align: center;
+        background-color:rgba(234, 226, 226, 0.76);    
+        position: absolute;
+        left:0;
+        right:0;
+        bottom:0;
+      
+    }
+.s2 table {
+    height:30%;
+    text-align:left;
+    font-size: 4vw;
+    
+    }
+.s2 td {
+    padding-bottom:0.8em;
+    padding-left:1em;
+    padding-top:0.8em;
+}
+ .s2 p {
+    font-size:120%;
+    font-weight:bold;
+    /*border:dashed; */
+    margin-bottom: 0;
+    margin-left:0;
+    padding-left:0;
+
+} 
+ 
+img {
+        width:100%; 
+        padding:0;
+        margin:0;
+        border:0;
+}
+
+/* пукнкты главного меню */
+
+#MainMenu {
+    width: 100%;
+    font-size: 28px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 60px;
+    height: 300px;
+    color: white;
+    padding: 0;
+}
+
+.button1 {
+    background-image: url(../images/menu/1.jpg);
+    background-size:contain;
+     color: white;   
+     height: 30vw;
+     width: 100%;
+     border:none;
+     border-top-style:dashed;
+     font-size: 10vw;
+}
+.button2 {
+   background-image: url(../images/menu/2.jpg);
+    background-size:contain;
+     color: white;   
+     height: 30vw;
+     width: 100%;
+     border:none;
+     border-top-style:dashed;
+     font-size: 10vw;
+}
+.button3 {
+   background-image: url(../images/menu/3.jpg);
+ background-size:contain;
+     color: white;   
+     height: 30vw;
+     width: 100%;
+     border:none;
+     border-top-style:dashed;
+     font-size: 10vw;
+}
+.button4 {
+   background-image: url(../images/menu/4.jpg);
+   background-size:contain;
+     color: white;   
+     height: 30vw;
+     width: 100%;
+     border:none;
+     border-top-style:dashed;
+     font-size: 10vw;
+}
+.button5 {
+   background-image: url(../images/menu/5.jpg);
+ background-size:contain;
+     color: white;   
+     height: 30vw;
+     width: 100%;
+     border:none;
+     border-top-style:dashed;
+     font-size: 10vw;
+
+}

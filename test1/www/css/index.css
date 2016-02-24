@@ -1,0 +1,333 @@
+﻿body {
+    background-color :white;
+    padding:0;
+    margin:0;
+    height:100%;
+}
+/* новый вариант подменю */ 
+#Mm2 {
+   /* position:fixed; */
+    width:100%;
+    top:0;
+    z-index:3;
+    background-color: #18a000; 
+    font-weight:bold;
+    font-size:8vw;
+    color:white;
+    line-height:9vw;
+    
+    padding:0;
+    
+}
+
+
+/*  Верхняя зеленая полоса */
+#Mm {
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:3;
+    background-color: #18a000; 
+    font-weight:bold;
+    font-size:8vw;
+    color:white;
+    line-height:9vw;
+    text-align:center;
+    padding:0;
+    
+}
+        .m1 {
+             float:left;
+             font-size:150%;
+             font-weight:normal;
+             padding-left:10px;
+             padding-right:10px; 
+             position:absolute; 
+              padding-top:2px;
+             
+            }
+        .m11 {
+             float:left;
+             font-size:150%;
+             font-weight:normal;
+             padding-top:3px;
+             padding-left:5px;
+             padding-right:2px; 
+             top:2px;
+            }
+
+        .m2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight:bold;
+            font-size:5vw;
+            text-align:center;
+            align-content:center;
+            padding:0;
+           
+            margin:0;
+           
+           /* display:inline-block;*/
+            }
+  
+         .m3 img {
+            left:15vw;
+            height:8vw;
+            width:8vw; 
+            margin-bottom:1vw;
+            display:inline;
+           
+            vertical-align:middle;
+            }
+        
+        .m3 { 
+              font-size:80%;
+              margin:0;
+              padding:0;
+            }
+/* конец верхней полосы для меню */
+
+
+#podmenu {
+    z-index:1;
+    position:fixed;
+    width:100%;
+   text-align:center;
+   background-color: #129f1d;
+   font-size: 17px;
+   line-height: 35px;
+   color:white;
+ 
+}
+    #nnn {
+       position:relative;
+       font-size:5vw;
+         line-height:6vw;
+       }
+
+#podmenu button {
+    position:absolute;
+    top:10px;
+    left:10px;
+    font-size:3vw;
+    height:auto;
+    width:auto;
+    background-color:#129f1d;
+    text-align:left;
+    margin-left:20px;
+    color:white;
+}
+
+/*   выпадающее меню   */
+.dropdown {   
+    z-index:1;
+    background-color:  #edeaea;  
+    text-align:left;
+    position:absolute;
+    /* margin-top:9vw;*/
+    width:75%;
+    height:150vw;
+    font-size:6vw;
+    line-height:10vw;
+    display:none; 
+}
+    .drop1 {
+            padding-top:3vw;       
+            padding-bottom:3vw;            
+            background-color:white;
+    }
+
+    .drop2 { 
+            color:black;
+            margin-top:10vw;
+            padding-left: 0px;
+            line-height:3.5vw; 
+            font-size:3vw;
+            }
+
+    .dropdown li {
+                   margin-left: -50px;
+                 }
+ 
+    .dropdown li:hover {       /*цвет полоски верхенего подменю*/
+                       background:#ffd800;
+                        }
+
+    .dropdown a {                   /* оформление  текста пунктов верхнего  */
+        text-decoration:none;
+        color:black;
+        margin-left:40px; 
+    }
+.dr3 {
+    padding-left:20px;
+    padding-top: 1em;
+     }
+
+/* окошко акции*/
+#cap {
+    z-index:0;
+    text-align:center;
+    font-size: 5vw;
+    line-height:6vw;
+    background-color:  #edf6e6;
+}
+
+ div .s {
+     position:relative;
+     margin:0px;
+     display:inline; 
+     padding:0px;
+     border:0;
+}
+    .s img {   
+        z-index:1;   
+        width:100%;
+        height:100%;
+        padding:0;
+        margin:0;
+        border:0;
+    }
+   div .s2 { 
+        text-align: center;
+        background-color:rgba(234, 226, 226, 0.76);    
+        position: absolute;
+        left:0;
+        right:0;
+        bottom:0;
+      
+    }
+.s2 table {
+    height:30%;
+    text-align:left;
+    font-size: 4vw;
+    
+    }
+.s2 td {
+    padding-bottom:0.8em;
+    padding-left:1em;
+    padding-top:0.8em;
+}
+ .s2 p {
+    font-size:120%;
+    font-weight:bold;
+    /*border:dashed; */
+    margin-bottom: 0;
+    margin-left:0;
+    padding-left:0;
+
+} 
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+} 
+
+img {
+        width:100%; 
+        padding:0;
+        margin:0;
+        border:0;
+}
+
+/* пукнкты главного меню */
+
+#MainMenu {
+
+    width: 100%;
+    font-size: 28px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 60px;
+    height: 100%;
+    color: white;
+    padding: 0;
+     
+}
+
+.button1 {
+    background-image: url(../images/menu/1.jpg);
+    background-size:auto;
+     color: white;   
+     height: 18.7vh;
+     width: 100%;
+     border:none;
+     border-top-style:dashed;
+     font-size: 7vh;
+}
+.button2 {
+   background-image: url(../images/menu/2.jpg);
+    background-size:contain;
+     color: white;   
+     height: 18.7vh;
+     width: 100%;
+     border:none;
+     border-top-style:dashed;
+     font-size: 7vh;
+}
+.button3 {
+   background-image: url(../images/menu/3.jpg);
+ background-size:contain;
+     color: white;   
+     height: 18.7vh;
+     width: 100%;
+     border:none;
+     border-top-style:dashed;
+     font-size: 7vh;
+}
+.button4 {
+   background-image: url(../images/menu/4.jpg);
+   background-size:contain;
+     color: white;   
+     height: 18.7vh;
+     width: 100%;
+     border:none;
+     border-top-style:dashed;
+     font-size: 7vh;
+}
+.button5 {
+   background-image: url(../images/menu/5.jpg);
+    background-size:contain;
+     color: white;   
+     height: 19vh;
+     width: 100%;
+     border:none;
+     border-top-style:dashed;
+     font-size: 7vh;
+
+}
+
+.item {
+    position:relative;
+    height:100%;
+}
+    .item img {
+    height:100vh;
+    
+    }
+
+ .tphone {
+      margin-left:8px;
+      padding-left:5px;
+    border-radius: 4px;
+   font-family: "Cuprum";
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 3px #db9d00;
+    background: #ffb500;
+    background: -webkit-linear-gradient(0deg, #ffb500, #ffd500);
+    background: -o-linear-gradient(0deg, #ffb500, #ffd500);
+    background: -moz-linear-gradient(0deg, #ffb500, #ffd500);
+    background: linear-gradient(0deg, #ffb500, #ffd500);
+}
+
+    .tphone a {
+        text-decoration: none;
+        padding: 0;
+        color: white;
+        padding-left: 0px;
+        padding-right: 5px;
+        font-size: 75%;
+        display: inline;
+        margin: 0px;
+    }
+   
+ 

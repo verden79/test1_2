@@ -1,0 +1,11 @@
+{
+     "android": {
+      "release": {
+        "alias": "ecoplanta",
+        "keystore": "c:\\work\\eco.keystore",
+        "keystoreType": "",
+        "password": "654321",
+        "storePassword": "654321"
+      }
+     }
+ }

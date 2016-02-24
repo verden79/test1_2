@@ -1,0 +1,20 @@
+﻿ {
+  "hardwood": [
+    {
+      "img": "images/listven/lipa.jpg",
+      "name": "Липа",
+      "size1": "2-3 м",
+      "cena1": 2970,
+      "size2": "3-4 м",
+      "cena2": 3700
+    },
+    {
+      "img": "images/listven/kashtan.jpg",
+      "name": "Каштан Конский",
+      "size1": "4-5+ м",
+      "cena1": 15970,
+      "size2": "0 м",
+      "cena2": 0
+    }
+  ]
+}

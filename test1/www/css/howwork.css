@@ -1,0 +1,19 @@
+﻿body {
+}
+.howwork {
+    margin-top:9vw;
+    width:100%;
+    text-align:left;
+    align-content:center;
+    font-size:5vw;
+}
+    .howwork td {
+     padding-left:1em;
+    }
+
+    .howwork img {
+       width:65%;
+       height:auto;
+       text-align:center;
+       margin-left:2em;       
+    }

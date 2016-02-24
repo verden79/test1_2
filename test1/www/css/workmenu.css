@@ -1,0 +1,81 @@
+﻿body {
+}
+ div .ss {
+     position:relative;
+    margin:0px;
+    display: inline; 
+    padding:0px;
+    border:0;
+    
+}
+    .ss img {      
+        width:49%;
+        height:49%;
+        padding:0;
+        margin:0;
+        border:0;
+    }
+   div .ss2 { 
+        text-align: center;
+        background-color:rgba(234, 226, 226, 0.76);    
+        position: absolute;
+        left:0px;
+        right:0px;
+        bottom:0px;
+        width:auto;
+        
+    }
+
+.ss2 table {
+    font-size:2vw;
+    }
+.ss2 th{
+    padding: 0.6em;
+}
+
+table {
+width:100%;
+}
+
+.tdr,.tdr1,.tdr2 {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+}
+
+.tdr,.tdr1,.tdr2  img{
+    width:100%;
+    height:auto;
+        padding:0;
+        margin:0;
+        border:0;
+        margin-bottom: 5px;
+      
+}
+  .tdr1,.tdr,.tdr2  td {
+     font-size:3vw;
+     padding:0;
+     margin:0;
+     position:relative;
+    }
+
+/* для меню каталог */
+.cat1 {
+    font-size:4vw;
+    line-height:6vw; 
+    width:100%;
+    background-color:#346d2c;
+    color:white;
+    text-align:center;
+     margin-bottom: 5px;
+}
+p {
+    z-index:0;
+    text-align:center;
+    font-size: 5vw;
+    line-height:6vw;
+    background-color:#edf6e6;
+    margin-top:2px;
+    margin-bottom:2px;
+
+}

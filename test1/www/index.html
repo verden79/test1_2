@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <title>test1</title>  -->
+    <!-- test1 references -->
+    <link href="css/index.css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+<body>
+
+    <!--   верхний заголовок с пунктом меню-->
+    <div id="Mm2">
+        <div>
+            <div class="m11" onclick="onch()"> ≡  </div> 
+            <span class="m3" >
+                <img src="images/logo.png" />  EcoPlant 
+                   <box class="tphone" > <img style="height:4vw; width:4vw" src="images/menu/phone.png" />
+                <a href="tele:84953745728"> 8(495)374-57-28 </a> </box>
+            </span>
+        </div>
+
+        <div id="ptm" class="dropdown">
+            <div class="drop1">
+                <ul>
+                    <li> <a href="index.html"> На главную </a></li>
+                    <li> <a href="mainhtml/upmenu/service.html"> Услуги по посадке </a></li>
+                    <li> <a href="mainhtml/upmenu/ourPitomnik.html"> Наш питомник </a></li>
+                    <li> <a href="mainhtml/upmenu/howworking.html"> Как мы работаем </a></li>
+                    <li> <a href="mainhtml/upmenu/ourClients.html">  Наши клиенты </a></li>
+                    <li> <a href="mainhtml/upmenu/pageContact.html"> Контакты </a></li>
+                </ul>
+            </div>
+
+            <div class="drop2">
+
+                <table  style="width:100%; text-align:center">
+                    <tr> 
+                        <td  valign="top" style="width:33%;"> без предоплаты </td>
+                        <td  valign="top" style="width:33%;"> гарантия до 3-х лет </td>
+                        <td   valign="top" style="width:33%;"> без посредников </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/menu/tr1.png" />
+                        </td>
+                      
+                        <td>
+                            <img src="images/menu/tr2.png" />
+                        </td>
+
+                        <td>
+                            <img src="images/menu/tr3.png" />
+                        </td>
+
+                    </tr>
+                </table>
+                        <div class ="dr3">
+                             ОГРН 11450332008230 <br>
+                             ИНН 5032284570 <br>
+                             ©EcoPlant, 1993-2015
+                        </div>
+            </div>
+          
+
+        </div>
+    </div>
+        <!-- коенц верхнего заголовка и меню -->
+            <div id="akcia">
+               
+                  
+             </div>
+            
+          
+
+   
+
+    <!--  главное  меню -->
+    <div id="MainMenu" >
+        <div>
+            <button class="button1" onclick="punkt1()"> Лиственные </button>
+        </div>
+
+        <div>
+            <button class="button2" onclick="punkt2()">  Крупномеры </button>
+        </div>
+
+        <div>
+            <button class="button3" onclick="punkt3()">  Плодовые </button>
+        </div>
+
+        <div>
+            <button class="button4" onclick="punkt4()">  Туя </button>
+        </div>
+
+        <div>
+            <button class="button5" onclick="punkt5()"> Кустарники </button>
+        </div>
+    </div>
+
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="scripts/index.js"></script>
+  
+    <!--<h1>OneSignal Example</h1>
+    <form>
+        <input type="button" value="Send Tag" onclick="sendTag()" />
+        <br>
+        <input type="button" value="Get Ids" onclick="getIds()" />
+    </form>
+    <p id="OneSignalUserId"></p>
+    <p style="word-break: break-all;" id="OneSignalPushToken"></p>-->
+   
+</body>
+</html>

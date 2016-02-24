@@ -1,0 +1,45 @@
+﻿html,body {
+    height:100%
+}
+
+.ourclient2 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.ourclient {
+    height:100%;
+    width:100%;
+    text-align:center;
+    font-size:4vw;
+}
+    .ourclient td {
+        
+    }
+
+    .ourclient img {
+       width:100%;
+       height:auto;
+       margin-bottom:15vw;
+     }
+    
+    .pressed { 
+            height:100%;
+           font-size:3.5vw; 
+           font-weight:bold;
+          padding: 10px; /*отступы в блоке до текста*/ 
+          background: #f1f1f1; /*фон блока*/ 
+          border: 1px solid #000; /*граница блока*/ 
+          border-right: 1px solid #353535; /*граница блока*/ 
+          border-bottom: 1px solid #353535; /*граница блока*/ 
+          -webkit-border-radius: 9px; /*закругление углов на число пикселей для Webkit */ 
+          -moz-border-radius: 9px; /*закругление углов на число пикселей для Mozilla */ 
+          border-radius: 9px; /*закругление углов на число пикселей*/ 
+          position:relative;
+}
+    .pr2 {
+        position:absolute;
+        bottom:5px;
+}
